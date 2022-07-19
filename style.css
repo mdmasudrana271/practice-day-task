@@ -45,9 +45,11 @@
 
 .half-width-heading{
     font-size: 4.5em;
+    margin-bottom: 20px;
 }
 .half-width-paragraph{
     font-size: 1.5em;
+    margin-bottom: 20px;
 }
 
 .influencer-btn{
@@ -81,7 +83,7 @@ hr{
 /* card box section  */
 
 .popular-section{
-    height: 250vh;
+    height: 215vh;
 }
 
 .popular-title{
@@ -130,4 +132,39 @@ hr{
 
 .fa-arrow-right{
     color: #E02C6D;
+}
+
+/* bottom section  */
+.bottom-section{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.half-baner{
+    width: 50%;
+}
+.half-banner-description{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #0A0826;
+}
+.half-banner-paragraph{
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #6C6C6C;
+}
+
+.exp-btn{
+    font-size: 1.2em;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+}
+
+.half-baner img{
+    width: 66%;
 }
