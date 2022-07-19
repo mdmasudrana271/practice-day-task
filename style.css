@@ -1,7 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* NAV BAR FOR MOBILE  */
+.mobile-header{
+    visibility: hidden;
+}
+.mobile-nav{
+    margin-top: 50px;
+    
+}
+.mobile-nav-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+.mobile-nav-item p{
+    color: #3A3A3A;
+    font-size: 1.5em;
+}
+
+
+
 /* navigation bar  */
 .header-section{
     margin-top: 5%;
@@ -31,7 +54,7 @@
 }
 /* top section  */
 .top-section{
-    height: 80vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -73,8 +96,8 @@ hr{
 }
 
 .ecomarce-section{
-    padding-top: 12rem;
-    height: 20vh;
+    padding-top: 5rem;
+    height: 30vh;
 }
 hr{
     height: 1px;
@@ -82,20 +105,29 @@ hr{
     border: none;
     margin: 0 10%;
 }
-
-.e-logos{
+ .e-logos{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 2% 10%;
 }
-
+.e-logo img{
+    width: 75px;
+    height: 40px;
+}
+  /* .e-logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 2% 10%;
+    justify-items: center;
+} */
 
 /* card box section  */
 
-.popular-section{
-    height: 215vh;
-}
+/* .popular-section{
+    height: 200vh;
+} */
 
 .popular-title{
     text-align: center;
@@ -210,4 +242,76 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/* responsive for use media query */
+@media only screen and (max-width:667px) {
+    .header-section{
+        display:none;
+    }
+    .top-section{
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 30%;
+    }
+    .top-section{
+        flex-direction: column-reverse;
+    }
+    .half-width{
+        height: 90%;
+        width: 80%;
+        margin-left: 5%;
+        text-align: center;
+    }
+    .half-width-heading{
+        font-size: 2em;
+        margin-top: 50px;
+    }
+    .mobile-header{
+        visibility: visible;
+    }
+    hr{
+        visibility: hidden;
+    }
+    .e-logos{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        flex-direction: row;
+    }
+    .e-logo img{
+       width: 70px;
+       height: 50px;
+       align-items: center;
+    }
+    
+    .card-container{
+        height: 440vh;
+
+    }
+    .card-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .bottom-section{
+        margin-top: 50%;
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 30%;
+        flex-direction: column-reverse;
+    }
+    .half-baner img{
+        padding-top: 10%;
+        width: 80vw;
+        height: 100%;
+        padding-right: 100%;
+        
+    }
 }
