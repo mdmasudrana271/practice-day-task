@@ -110,6 +110,11 @@ hr{
 .rating-star i{
     color: gold;
 }
+.card-paragraph{
+    color: #787885;
+    font-size: 1em;
+    text-align: start;
+}
 .card-container{
     display: flex;
     justify-content: center;
