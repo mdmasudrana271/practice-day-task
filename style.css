@@ -76,6 +76,12 @@ hr{
     padding-top: 12rem;
     height: 20vh;
 }
+hr{
+    height: 1px;
+    background-color: rgb(238, 231, 231);
+    border: none;
+    margin: 0 10%;
+}
 
 .e-logos{
     display: flex;
@@ -204,10 +210,4 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-hr{
-    height: 1px;
-    background-color: rgb(238, 231, 231);
-    border: none;
-    margin: 0 10%;
 }
