@@ -76,3 +76,58 @@ hr{
     justify-content: space-evenly;
     padding: 2% 10%;
 }
+
+
+/* card box section  */
+
+.popular-section{
+    height: 250vh;
+}
+
+.popular-title{
+    text-align: center;
+}
+
+.card{
+    border-radius: 5px;
+    width: 18vw;
+    padding: 25px;
+    box-shadow: 5px 5px 15px 5px gray;
+}
+
+.card img{
+    width: 100%;
+}
+.fa-solid{
+    color: gold;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    grid-column-gap: 1.5em;
+    grid-row-gap:1.5em;
+    padding-top: 5%;
+    
+}
+
+.right-arrow{
+    display: flex;
+    justify-content: end;
+    font-size: 0.6em;
+    color: #E02C6D;
+    margin-top: 5%;
+    margin-right: 15%;
+
+}
+
+.fa-arrow-right{
+    color: #E02C6D;
+}
