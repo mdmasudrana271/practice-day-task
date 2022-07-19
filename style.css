@@ -113,6 +113,7 @@ hr{
 .card-paragraph{
     color: #787885;
     font-size: 1em;
+    font-weight: 700;
     text-align: start;
 }
 .card-container{
